@@ -1,0 +1,54 @@
+#btnPresupuesto {
+    background-color: green;
+    color: white;
+}
+
+@media only screen and (max-width : 480px) {
+    .margenxs {
+        margin-top: 30px;
+    }
+}
+
+.rojo{
+    background-color: #ff000036;
+    border: #8d0202 2px solid;
+}
+
+.verde{
+    background-color: #00800047;
+    border: #005800 2px solid;
+}
+
+.radius{
+    border-radius: 15px;
+}
+
+label {
+    font-weight: 700;
+}
+
+#btnPresupuesto.btn:focus{
+    box-shadow: 0 0 0 0.25rem #0278066e;
+}
+
+#btnGasto.btn:focus{
+    box-shadow: 0 0 0 0.25rem #e5090947;
+}
+
+.rojo input:focus{
+    box-shadow: 0 0 0 0.25rem #e5090947;
+    border-color: red;
+}
+
+.verde input:focus{
+    box-shadow: 0 0 0 0.25rem #0278066e;
+    border-color: green;
+}
+.txtRojo{
+    color: red;
+}
+
+td.btnEliminar {
+    cursor: pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
